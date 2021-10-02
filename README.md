@@ -26,7 +26,7 @@ tidio has a lot of [integrations](https://help.tidio.com/docs/integrations), but
 3. Add your chat link to your `.env` file:
 
 ```
-USERLIKE_KEY="**84ea169c8b4049a*******ec2f982d58fca8b147184ea6a6d356154036****"
+TIDIO_KEY="*yi7****lo1cfaxvmcr*****cuipc***"
 ```
 ####To get your widget key:
 - Visit: [your dashboard developer settings](https://www.tidio.com/panel/settings/developer)
