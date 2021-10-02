@@ -1,0 +1,43 @@
+{
+    "name": "emtiazzahid/tidio-laravel",
+    "description": "A tidio chat widget for Laravel.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "tidio.com",
+        "tidio",
+        "tawk",
+        "chat",
+        "widget"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/emtiazzahid/tidio-laravel",
+    "authors": [
+        {
+            "name": "Emtiaz Zahid",
+            "homepage": "https://github.com/emtiazzahid",
+            "email": "emtiazzahid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmtiazZahid\\Tidio\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EmtiazZahid\\Tidio\\TidioServiceProvider"
+            ],
+            "aliases": {
+                "Tidio": "EmtiazZahid\\Tidio\\Tidio"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
